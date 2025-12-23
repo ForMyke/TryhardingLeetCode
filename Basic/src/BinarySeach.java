@@ -1,8 +1,8 @@
 public class BinarySeach {
     // Function to calls the solution
     public static void main(String[] args) {
-
-
+    int [] nummbers = {1,3,5,6,8,12,4};
+    System.out.println(    binarySearch(nummbers,6));
     }
 
     //Solution
@@ -10,7 +10,7 @@ public class BinarySeach {
     private static int binarySearch(int[] numbers, int numbertoFind) {
         // Pointers
         int low = 0;
-        int high = numbertoFind - 1;
+        int high = numbers.length - 1;
         // Loop
         while (low <= high) {
 
@@ -29,4 +29,6 @@ public class BinarySeach {
         }
         return -1;
     }
+
+
 }
