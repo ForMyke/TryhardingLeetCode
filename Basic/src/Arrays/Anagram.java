@@ -11,8 +11,8 @@ public class Anagram {
             return false;
         }
         //Second case
-        Map<Character, Integer> countS = new HashMap<Character, Integer>();
-        Map<Character, Integer> countT = new HashMap<Character, Integer>();
+        Map<Character, Integer> countS = new HashMap<>();
+        Map<Character, Integer> countT = new HashMap<>();
 
 
         for (int i = 0; i < s.length(); i++) {
