@@ -16,8 +16,6 @@ public class GAnagrams {
             one.putIfAbsent(keySort, new ArrayList<>());
             //If exist add
             one.get(keySort).add(s);
-
-
         }
         //Return the list
         return new ArrayList<>(one.values());
